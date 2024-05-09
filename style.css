@@ -1,0 +1,326 @@
+@font-face {
+    font-family: apple;
+    src: url(images/sf-pro-display_regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: apple;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8vw 0;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    opacity: 0.9;
+}
+nav .logo  img{
+    width: 1.33vw;
+    opacity: 0.8;
+    margin-right:1.4vw ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 1.5vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 0.88vw;
+}
+nav ul li a i{
+    font-size: 1.2vw;
+}
+.page1{
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+}
+.video video{
+    width: 100%;
+}
+.page1Text{
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page1Text1 img{
+    width: 4.5vw;
+    margin: 0 0.5vw;
+}
+.page1Text1 h1{
+    font-size: 4.5vw;
+    color: white;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+}
+.page1Text1{
+    font-family: apple;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw 0;
+}
+.page1Text a{
+    font-size: 1.8vw;
+    color: white;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+    text-decoration: none;
+    width: 100%;
+}
+.page1Text button{
+    /* margin-top: 1vw; */
+    padding: 1vw 1vw;
+    font-size: 1.3vw;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1.4vw 0.7vw;
+}
+#btn1{
+    margin-left: 10vw;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+.page1Text button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    margin:0.5vw 0;
+    background-image: url(images/iphone15pro.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.page2text{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 2.2vw;
+    padding: 2.5vw 0;
+}
+.page2text button{
+      /* margin-top: 1vw; */
+      padding: 1vw 1.5vw;
+      font-size: 1.5vw;
+      background-color: #0077ED;
+      color: #fff;
+      border: 1px solid #0077ED;
+      border-radius: 80px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      margin: 1.4vw 0.7vw;
+  }
+  #page2btn{
+      background-color: transparent;
+      border: 1px solid #0077ED;
+      color: #0077ED;
+  }
+  #page2btn:hover{
+    background-color: #0077ED;
+    color: #fff;
+    border: 1px solid #0077ED;
+  }
+  .page3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/iphone15.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.page3 h1{
+    font-size: 4vw;
+    padding-top: 5vw;
+}
+.page3 p{
+    font-size: 2vw;
+    margin: 0.5vw 0;
+}
+.page3 button{
+    padding: 0.8vw 1.5vw;
+    font-size: 1.3vw;
+    border-radius: 100px;
+    margin: 0.5vw 0;
+}
+#active{
+    border: 1px solid #0077ED;
+    color: #fff;
+    background-color: #0077ED;
+    
+}
+#inactive{
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    margin: 0 1vw;
+    background-color: transparent;
+}
+#inactive:hover{
+    border: 1px solid #0077ED;
+    color: #fff;
+    background-color: #0077ED;
+    cursor: pointer;
+}
+
+/* page4 */
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/macbook_air.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.page4 h1{
+    font-size: 4vw;
+    padding-top: 5vw;
+}
+.page4 p{
+    font-size: 2vw;
+    margin: 0.5vw 0;
+}
+.page4 button{
+    padding: 0.8vw 1.5vw;
+    font-size: 1.3vw;
+    border-radius: 100px;
+    margin: 0.5vw 0;
+}
+.productwrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product1{
+    background-image: url(images/apple_watch.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.product1 img{
+    width: 12vw;
+}
+.product1 P{
+    color: #fff;
+    margin: 0.5vw;
+    font-size: 2vw;
+}
+.product2{
+    background-image: url(images/ipad.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.product2 h1{
+    font-size: 3vw;
+}
+.product2 P{
+    color: #000;
+    margin: 0.5vw;
+    font-size: 2vw;
+}
+.product3{
+    background-image: url(images/airpods.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.product4{
+    background-image: url(images/mbp.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.product5{
+    background-image: url(images/card.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 47%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.product6{
+    background-image: url(images/iphone_tradein.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 47%;
+    background-repeat: no-repeat;
+    margin: 0.4vw;
+    text-align: center;
+    padding: 4vw;
+}
+.productwrapper button{
+    padding: 0.5vw 1vw;
+    font-size: 1.2vw;
+    border-radius: 100px ;
+}
+
+.product5 img{
+    width: 8.5vw;
+}
+.product5 P{
+    color: #000;
+    margin: 1vw 0;
+    font-size: 1.5vw;
+}
+.product6 img{
+    width: 8.5vw;
+}
+.product6 P{
+    color: #000;
+    margin: 1vw 0;
+    font-size: 1.5vw;
+}
