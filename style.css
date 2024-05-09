@@ -1,6 +1,6 @@
 @font-face {
     font-family: apple;
-    src: url(images/sf-pro-display_regular.ttf);
+    src: url(images/sf-pro-display_regular.woff2);
 }
 *{
     margin: 0;
@@ -113,7 +113,7 @@ nav ul li a i{
     height: 100vh;
     width: 100%;
     margin:0.5vw 0;
-    background-image: url(images/iphone15pro.jpg);
+    background-image: url(images/iphone15pro.webp);
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -151,7 +151,7 @@ nav ul li a i{
   .page3{
     height: 100vh;
     width: 100%;
-    background-image: url(images/iphone15.jpg);
+    background-image: url(images/iphone15.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -193,7 +193,7 @@ nav ul li a i{
 .page4{
     height: 100vh;
     width: 100%;
-    background-image: url(images/macbook_air.jpg);
+    background-image: url(images/macbook_air.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -221,7 +221,7 @@ nav ul li a i{
     flex-wrap: wrap;
 }
 .product1{
-    background-image: url(images/apple_watch.jpg);
+    background-image: url(images/apple_watch.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -240,7 +240,7 @@ nav ul li a i{
     font-size: 2vw;
 }
 .product2{
-    background-image: url(images/ipad.jpg);
+    background-image: url(images/ipad.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -259,7 +259,7 @@ nav ul li a i{
     font-size: 2vw;
 }
 .product3{
-    background-image: url(images/airpods.jpg);
+    background-image: url(images/airpods.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -270,7 +270,7 @@ nav ul li a i{
     padding: 4vw;
 }
 .product4{
-    background-image: url(images/mbp.jpg);
+    background-image: url(images/mbp.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -281,7 +281,7 @@ nav ul li a i{
     padding: 4vw;
 }
 .product5{
-    background-image: url(images/card.jpg);
+    background-image: url(images/card.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -292,7 +292,7 @@ nav ul li a i{
     padding: 4vw;
 }
 .product6{
-    background-image: url(images/iphone_tradein.jpg);
+    background-image: url(images/iphone_tradein.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
